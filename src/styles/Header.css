@@ -2,6 +2,7 @@
     border: 1px solid rebeccapurple;
     position: sticky;
     margin: 10px;
+    border-radius: 0 10px 10px 0;
 }
 .nav-container {
     position: sticky;
