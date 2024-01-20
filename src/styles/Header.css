@@ -1,8 +1,8 @@
 .main-container {
     border: 1px solid rebeccapurple;
     position: sticky;
-    margin: 10px;
-    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
 }
 .nav-container {
     position: sticky;
@@ -42,13 +42,3 @@
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.border{
-    background: linear-gradient(rgb(91, 154, 171), rgb(42, 108, 158));
-    width: 3px;
-    height: 100%;
-    position: absolute;
-    left: 13px;
-}
-.border-2 {
-    left: 120px;
-} 
