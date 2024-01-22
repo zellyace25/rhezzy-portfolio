@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
+import "../styles/About.css";
+import AboutIntro from "./AboutIntro";
 
 function About() {
   return (
     <>
-    <h1>ABOUT</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugiat optio, quis ipsum possimus dolore sapiente tempore? Deleniti quidem, harum, amet pariatur iusto laboriosam quo numquam esse, expedita error quisquam!</p>
+      <div className="about-header">
+        <h2>rhezzy</h2>
+        <AboutIntro/>
+      </div>
     </>
-  )
+  );
 }
 
-export default About
+export default About;
